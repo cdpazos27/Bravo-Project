@@ -1,0 +1,13 @@
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\obj\Debug\Generar Reporte de Tiempos de Intervención.csprojAssemblyReference.cache
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\obj\Debug\Generar_Reporte_de_Tiempos_de_Intervención.PantallaInformeTiemposIntervencion.resources
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\obj\Debug\Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.PrincipalFrm.resources
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\obj\Debug\Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources.resources
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\obj\Debug\Generar Reporte de Tiempos de Intervención.csproj.GenerateResource.cache
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\bin\Debug\Generar Reporte de Tiempos de Intervención.exe.config
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\bin\Debug\Generar Reporte de Tiempos de Intervención.xml
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\bin\Debug\Generar Reporte de Tiempos de Intervención.exe
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\bin\Debug\Generar Reporte de Tiempos de Intervención.pdb
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\obj\Debug\Generar Reporte de Tiempos de Intervención.exe
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\obj\Debug\Generar Reporte de Tiempos de Intervención.pdb
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\obj\Debug\Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.VisualizaciónFrm.resources
+C:\Users\gozag\source\repos\Bravo\Generar Reporte de Tiempos de Intervención\obj\Debug\Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.ReporteTiemposFrm.resources

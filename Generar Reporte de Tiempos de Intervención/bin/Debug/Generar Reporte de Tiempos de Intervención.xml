@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Generar Reporte de Tiempos de Intervención</name>
+    </assembly>
+    <members>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.Bussiness_Layer.GestorGenerarReporte.calcularTiempoIntervenciones">
+            El método delega la responsabilidad de calcular el tiempo de intervencion a su estrategia, y obtiene en un
+            vector de string, los datos para generar el reporte
+            
+        </member>
+        <member name="T:Generar_Reporte_de_Tiempos_de_Intervención.Entities.Estado">
+            <summary>
+            Clase que representa un estado en, ya sea una intervención, una guardia de bombero, o una programación de guardias de bombero.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Entities.Estado.ambito">
+            <summary>
+            Ambito indica a cual de las clases se está refiriendo el estado 
+            Ambito == 1 -> Intervención
+            Ambito == 2 -> Guardia
+            Ambito == 3 -> ProgramaciónGuardia
+            </summary>
+        </member>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.Entities.Estado.#ctor">
+            <summary>
+            new() que genera un nuevo estado.
+            </summary>
+            
+        </member>
+        <member name="F:Generar_Reporte_de_Tiempos_de_Intervención.PantallaInformeTiemposIntervencion.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.PantallaInformeTiemposIntervencion.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.PantallaInformeTiemposIntervencion.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.PrincipalFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.PrincipalFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.PrincipalFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.ReporteTiemposFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.ReporteTiemposFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.ReporteTiemposFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.VisualizaciónFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.VisualizaciónFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.GUI_Layer.VisualizaciónFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Generar_Reporte_de_Tiempos_de_Intervención.Program.Main">
+            <summary>
+            Punto de entrada principal para la aplicación.
+            </summary>
+        </member>
+        <member name="T:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources._177103_blue_256x256">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources.BravoWeb">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources.excel_imports">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources.file_extension_pdf">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources.game_monitor">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources.Knob_Valid_Green">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources.OK_512">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Generar_Reporte_de_Tiempos_de_Intervención.Properties.Resources.transparent_tick_icon_png_check_mark_computer_icon_aa8548f187f97a89">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
